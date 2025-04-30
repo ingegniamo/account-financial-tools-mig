@@ -9,7 +9,9 @@
                 expr="//page[@name='invoicing']//group[@name='accounting']"
                 position="inside"
             >
-                <field name="taxes_updeatable_from_category" />
+                <group>
+                    <field name="taxes_updeatable_from_category" />
+                </group>
             </xpath>
         </field>
     </record>
